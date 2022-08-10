@@ -1,0 +1,30 @@
+module.exports = {
+  content: ["App.js", "./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      white: "#ffffff",
+      bgColor: "#E8EAED",
+      purple: "#3f3cbb",
+      gray: "#B3B3B3",
+      midnight: "#121063",
+      metal: "#565584",
+      tahiti: "#3ab7bf",
+      silver: "#ecebff",
+      "bubble-gum": "#ff77e9",
+      bermuda: "#78dcca",
+      itemBorderColor: "#C0C0C0",
+      addButtonColor: "#C0C0C0",
+      itemSquareColor: "#55BCF6",
+      itemCircleColor: "#55BCF6",
+    },
+    maxWidth: {
+      "1/2": "50%",
+      "4/5": "80%",
+    },
+  },
+  plugins: [],
+  corePlugins: require("tailwind-rn/unsupported-core-plugins"),
+};
